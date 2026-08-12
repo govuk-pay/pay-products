@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
-        xmlns="http://maven.apache.org/POM/4.0.0"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <prerequisites>
-        <maven>3.0.0</maven>
-    </prerequisites>
+
     <groupId>uk.gov.pay</groupId>
     <artifactId>pay-products</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -18,7 +14,7 @@
         <hamcrest.version>3.0</hamcrest.version>
         <mainClass>uk.gov.pay.products.ProductsApplication</mainClass>
         <pact.version>3.6.15</pact.version>
-        <pay-java-commons.version>1.0.20260727084644</pay-java-commons.version>
+        <pay-java-commons.version>1.0.20260812081959</pay-java-commons.version>
         <prometheus.version>0.16.0</prometheus.version>
         <surefire.version>3.5.6</surefire.version>
         <swagger-version>2.2.52</swagger-version>
@@ -47,7 +43,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <dependencies>
         <!-- Main dependencies that are imported from one of the BOMs specified
              in <dependencyManagement> so no explicit versions needed -->
@@ -391,6 +386,7 @@
             </plugin>
         </plugins>
     </build>
+
     <profiles>
         <profile>
             <id>default</id>
