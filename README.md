@@ -14,7 +14,7 @@ The GOV.UK Pay products microservice manages the functionality that lets governm
 
 The [API Specification](openapi/products_spec.yaml) provides more detail on the paths and operations including examples.
 
-[View the API specification for pay-products in Swagger Editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/alphagov/pay-products/master/openapi/products_spec.yaml).
+[View the API specification for pay-products in Swagger Editor](https://editor.swagger.io/?url=https://raw.githubusercontent.com/govuk-pay/pay-products/master/openapi/products_spec.yaml).
 
 ## Environment Variables
 
@@ -22,7 +22,7 @@ The [API Specification](openapi/products_spec.yaml) provides more detail on the 
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | `ADMIN_PORT`                             | The port number to listen for Dropwizard admin requests on. Defaults to `8081`.                                           |
 | `BIND_HOST`                              | The IP address for the application to bind to. Defaults to `127.0.0.1`.                                                   |
-| `BASE_URL`                               | The base URL of the [products-ui](https://github.com/alphagov/pay-products-ui) microservice.                              |
+| `BASE_URL`                               | The base URL of the [products-ui](https://github.com/govuk-pay/pay-products-ui) microservice.                              |
 | `DB_HOST`                                | The hostname of the database server. Defaults to `products.db.pymnt.localdomain`                                          |
 | `DB_PASSWORD`                            | The password for the `DB_USER` user.                                                                                      |
 | `DB_SSL_OPTION`                          | To turn TLS on this value must be set as `ssl=true`. Otherwise must be empty.                                             |
@@ -32,10 +32,10 @@ The [API Specification](openapi/products_spec.yaml) provides more detail on the 
 | `JPA_LOG_LEVEL`                          | The logging level to set for JPA. Defaults to `WARNING`.                                                                  |
 | `JPA_SQL_LOG_LEVEL`                      | The logging level to set for JPA SQL logging. Defaults to `WARNING`.                                                      |
 | `PORT`                                   | The port number to listen for requests on. Defaults to `8080`.                                                            |
-| `PRODUCTSUI_CONFIRMATION_URL`            | The URL of the confirmation page endpoint in the [products-ui](https://github.com/alphagov/pay-products-ui) microservice. |
-| `PRODUCTSUI_PAY_URL`                     | The URL of the `pay` endpoint in the [products-ui](https://github.com/alphagov/pay-products-ui) microservice.             |
-| `PRODUCTS_FRIENDLY_BASE_URI`             | The URL of the products endpoint in the [products-ui](https://github.com/alphagov/pay-products-ui) microservice.          |
-| `PUBLICAPI_URL`                          | The URL to the [publicapi](https://github.com/alphagov/pay-publicapi) microservice                                        |
+| `PRODUCTSUI_CONFIRMATION_URL`            | The URL of the confirmation page endpoint in the [products-ui](https://github.com/govuk-pay/pay-products-ui) microservice. |
+| `PRODUCTSUI_PAY_URL`                     | The URL of the `pay` endpoint in the [products-ui](https://github.com/govuk-pay/pay-products-ui) microservice.             |
+| `PRODUCTS_FRIENDLY_BASE_URI`             | The URL of the products endpoint in the [products-ui](https://github.com/govuk-pay/pay-products-ui) microservice.          |
+| `PUBLICAPI_URL`                          | The URL to the [publicapi](https://github.com/govuk-pay/pay-publicapi) microservice                                        |
 | `EMAIL_ADDRESS_FOR_REPLACING_API_TOKENS` | The email address used in a request to Public Auth application for generating an API token.                               |
 | `RUN_APP`                                | Set to `true` to run the application. Defaults to `true`.                                                                 |
 | `RUN_MIGRATION`                          | Set to `true` to run a database migration. Defaults to `false`.                                                           |
