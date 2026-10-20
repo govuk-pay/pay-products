@@ -13,7 +13,7 @@
         <eclipselink.version>4.0.9</eclipselink.version>
         <hamcrest.version>3.0</hamcrest.version>
         <mainClass>uk.gov.pay.products.ProductsApplication</mainClass>
-        <pay-java-commons.version>1.0.20261013124436</pay-java-commons.version>
+        <pay-java-commons.version>1.0.20261019091909</pay-java-commons.version>
         <pact.version>4.7.5</pact.version>
         <prometheus.version>0.16.0</prometheus.version>
         <surefire.version>3.6.0</surefire.version>
