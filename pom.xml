@@ -17,7 +17,7 @@
         <pact.version>4.7.7</pact.version>
         <prometheus.version>0.16.0</prometheus.version>
         <surefire.version>3.6.1</surefire.version>
-        <swagger-version>2.2.55</swagger-version>
+        <swagger-version>2.2.56</swagger-version>
         <PACT_BROKER_URL/>
         <PACT_BROKER_USERNAME/>
         <PACT_BROKER_PASSWORD/>
